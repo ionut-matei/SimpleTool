@@ -5,6 +5,7 @@ A .NET Core Global Tool it's a special kind of NuGet package that contains a .NE
 You can install and use a Global Tool similar to NPM packages.
 
 On Windows, each Global Tool will be installed into: "%USERPROFILE%\.dotnet\tools" (also located into user *Path environment variable*)
+
 Each Tool it's installed for a user, not for all users of the machine.
 
 To create a Global Tool follow the steps:
@@ -63,3 +64,16 @@ simpletool
 > Hello
 ```
 [More info](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools)
+
+* To uninstall the tool use:
+```
+dotnet tool uninstall -g simpletool
+```
+* To update a tool use:
+```
+dotnet tool update -g simpletool
+```
+* To list all installed tools use:
+```
+dotnet tool list -g
+```
