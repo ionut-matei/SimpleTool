@@ -29,7 +29,7 @@ To create a Global Tool follow the steps:
 
 * ToolCommandName
 
-[Optional] The name of the tool. If not specified, tool name will be the same as project name (csproj name).
+[Optional] The name of the command. If not specified, command name will be the same as package name (csproj name).
 
 * PackageOutputPath
 
